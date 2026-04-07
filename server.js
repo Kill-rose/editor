@@ -12,7 +12,7 @@ const GIT_BRANCH = process.env.GIT_BRANCH || 'main';
 const PORT = process.env.PORT || 3000;
 
 // wiki フォルダのパス
-const WIKI_FOLDER = path.join(__dirname, 'wiki');
+const WIKI_FOLDER = path.join(__dirname, '..', 'wiki');
 const API_TOKEN = process.env.API_TOKEN || 'your-secret-token-change-me';
 
 // ミドルウェア設定
